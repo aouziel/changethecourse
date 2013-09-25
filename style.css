@@ -1,8 +1,9 @@
 ul {
 	list-style:none;
-	#nav {
+	
+	}
+ul #nav {
 	background:#2eabe2;
 	width:1400px;
-	height:110px;
-	}
+	height:110px;	
 }
