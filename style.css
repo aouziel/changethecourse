@@ -1,9 +1,464 @@
-ul {
+
+
+body {
+	width:100%;
+	height:0 auto;
+}
+ h2 {
+	font-size:5em;
+	font-family: 'Medula One', cursive;	
+	text-align: center;
+	color:white;
+	margin-top:1.3em;
+	padding:0;
+}
+/*slide one*/
+
+
+#menu-icon {
+
+	display: hidden;
+	width: 75px;
+	height: 75px;
+	background:url(images/nav_mobile.jpg);
+
+}
+
+
+nav img {
+	margin:2% 0 0 5%;
+}
+nav ul {
 	list-style:none;
-	
+	float:right;
 	}
-ul #nav {
+a {
+	text-decoration: none;
+	color:white;
+}
+nav {
 	background:#2eabe2;
-	width:1400px;
-	height:110px;	
+	width:100%;
+	height:7em;
+	margin:0;
+	padding:0;
+}
+nav li {
+	float:left;
+	color:white;
+	font-size:1.2em;
+	margin-top:7%;
+	font-family: 'Medula One', cursive;
+
+}
+nav li a:hover{
+	color:#afe7ff;
+}
+nav a {
+	height:2em;
+	margin:1.3em;
+}
+li.Pledge a {
+	color:#ffce4d;
+	padding-right:2.4em;
+}
+#slideone {
+	background-image:url(images/Home_back.jpg);
+	background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+	float:left;
+	background-size:100%;
+}
+#slideone h3 {
+	font-family: 'Amatic SC', cursive;
+	font-size:3.5em;
+	color:white;
+	text-align:center;
+	padding-top:7%;
+	margin:0;
+	text-shadow:2px 2px 2px #999;
+}
+#slideone h6 {
+	font-family: 'Medula One', cursive;	
+	color:white;
+	text-align: center;
+	margin:0;
+	text-shadow:2px 2px 2px #999;
+	font-size:15em;
+}
+#slideone h4{
+	font-family: 'Medula One', cursive;	
+	font-size:2em;
+	color:white;
+	text-align:center;
+	margin:0;
+	padding:0 0 3% 0;
+	text-shadow:2px 1px 2px #999;
+}
+#slideone h5 {
+	font-family: 'Medula One', cursive;	
+	font-size:3em;
+	color:white;
+	text-align:center;
+	margin:0;
+	text-shadow:2px 1px 2px #999;
+}
+#slideone .main img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.button {
+	margin:0 0 0 28%;}
+
+button {
+	background-color:#ffc837;
+	border-radius: 1.7em;
+    width:10em;
+    height:2.7em;
+    color:white; 
+    font-size:2em;
+	font-family: 'Medula One', cursive;
+	padding:0;
+}
+button img {
+	float:left;
+}
+
+.button .and {
+	margin-top:-5%;
+}
+
+
+#partner p {
+	font-family: 'Amatic SC', cursive;
+	font-size:2em;
+	text-align: center;
+	padding:9% 0 0 0;
+}
+#partner img {
+	padding-bottom: 2em;
+}
+
+/*slide two*/
+
+#slidetwo{
+	width:100%;
+	height:100%;
+	background-color:#282828;
+	float:left;
+	padding-bottom:7%;
+}
+
+#slidetwo h3 {
+	color:#2581ab;
+	font-family: 'Medula One', cursive;	
+	font-size:2.5em;
+	text-align: center;
+	margin-top: 1.5em;
+}
+#slidetwo h4 {
+	color:white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:.9em;
+	text-align:center;
+	line-height: 1.5em;
+	margin-bottom: 2em;
+
+}
+#slidetwo .facts h4 {
+	text-align: left;
+	padding:0 0 20% 30%;
+	font-size: 1em;
+}
+
+
+#slidetwo .facts img{
+	float:left;
+	padding:0 5% 25% 0;
+ }
+
+#slidetwo img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    padding-bottom: 5%;
+}
+#slidetwo h5 {
+	color:#ffce4c;
+	font-family: 'Medula One', cursive;	
+	font-size:2.9em;
+	text-align: left;
+	padding-left: 5%;
+}
+#footprint{
+	width:100%;
+	height:100%;
+	background-color:#ffc53b;
+	float:left;
+	padding-bottom: 4%;
+}
+#footprint button {
+	float:left ;
+	background-color:#4aaad3;
+	width:9em;
+}
+#footprint button img {
+    margin-left: 4%;
+}
+
+
+
+
+#footprint h3 {
+	font-family: 'Medula One', cursive;	
+	font-size:2.6em;
+	color:white;
+	text-shadow:1px 1px 2px #999;
+	text-align: left;
+	padding-left:50%;
+}
+#footprint h4 {
+	font-size:1em;
+	text-shadow:1px 1px 1px #999;
+	color:black;
+	text-align: left;
+	line-height: 1.5em;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-left:50%;
+
+}
+#footprint .row {
+	padding-top:4%;
+}
+
+
+/* slide three */
+
+#slidethree {
+	background-image:url(images/slidethree.jpg);
+	background-repeat: no-repeat;
+	width:100%;
+	height:100%;
+	float:left;
+	background-color:#282828;
+	background-size: 100%;
+	padding-bottom: 10%
+}
+
+
+
+#slidethree .tweets h2 {
+	font-size:5em;
+	margin-top:7%;
+}
+#slidethree img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#slidethree .main h3 {
+	font-size:2.5em;
+	font-family: 'Medula One', cursive;
+	color:white;
+	text-align:center;
+	margin-bottom:13.5em;
+	text-shadow:2px 1px 2px #999;
+	line-height: 1.2em;	
+}
+#slidethree h4 {
+	font-size:5em;
+	font-family: 'Medula One', cursive;
+	color:#ffcf50;
+	text-align:center;
+	margin:0;
+	text-shadow:2px 1px 2px #999;
+}
+
+
+/* 
+#slidethree ul {
+	list-style:none;
+	float:right;
+	}
+
+
+#slidethree li {
+	color:white;
+	font-family: 'Medula One', cursive;
+	font-size:2em;
+	margin-top:10%;
+	line-height: 1.05em;
+}
+ */
+#slidethree #share {
+	background-image: url(images/share_btn.png);
+	background-repeat: no-repeat;
+	width:385px;
+	height:105px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#share p {
+	font-family: 'Medula One', cursive;
+	font-size: 2.5em;
+	color:white;
+	text-align:left;
+	padding:8% 2% 0 5%;
+	width:160px;
+	float:left;
+}
+#share a {
+	float: left;
+	margin:7% 0 0 0;
+}
+
+
+
+#slidethree .tweets h4 {
+	color:white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:1em;
+	text-align: left;
+	padding-left: 5%;
+
+
+}
+
+.tweets img {
+	float:left;
+	padding: 0 5% 0 0;
+}
+#slidethree .tweets h3 {
+	color:#ffce4c;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:1em;
+	padding:0 0 20% 31%;
+	float:left;
+
+}
+#slidethree h5 {
+	color:#ffce4c;
+	font-family: 'Medula One', cursive;
+	font-size:2.9em;
+	text-align: left;
+	padding-left: 5%;
+
+}
+
+.tweetPadding {
+	padding-bottom: 5em;
+}
+.facts {
+	margin-top:40%;
+}
+
+
+
+/* sponsors */
+#sponsors {
+	width:100%;
+	height:100%;
+}
+
+#sponsors h2 {
+	color:black;
+	margin-top: 5%;
+}
+#sponsors img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.padding {
+	padding-bottom: 2em;
+}
+
+#slidefour{
+	width:100%;
+	height:100%;
+	background-color:black;
+	float:left;
+}
+#slidefour h2 {
+	margin-top:6%;
+}
+#slidefour img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2em; 
+}
+#tabs img{
+	float:left;
+}
+
+
+
+.tabpage h5 {
+	color:#ffce4c;
+	font-family: 'Medula One', cursive;
+	font-size:2em;
+	text-align: left;
+	padding: 20% 0 2% 0;
+}
+.tabpage h4 {
+	color:white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:.8em;
+	text-align:left;
+	padding-bottom: 5%;
+	line-height: 1.5em;
+
+
+}
+.tabpage p {
+	color:#ffce4c;
+	float:left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1em;
+	margin:2.5% 0 0 6%;
+}
+#tabscontent button {
+	background-color:#1e90c2;
+	font-color:white;
+	float:left;
+	margin:0 0 5% 25%;
+}
+#tabscontent button img {
+	float:left;
+	padding:0 0 0 1.5em;
+}
+
+#tabscontent h5 {
+	padding: 3% 25% 0 25%;
+	float:left;
+}
+#tabscontent h4 {
+	padding: 0 25% 3% 25%;
+	float:left;
+}
+
+
+
+/*footer*/
+
+#footer {
+	height:12em;
+	width:100%;
+	background-color:black;
+	float:left;
+}
+#footer .footer_policy {
+	float:right;
+	margin:6% 7%  0 0;
+}
+#footer .footer_terms {
+	float:right;
+	margin:6% 2% 0 0;
+}
+#footer .footer_logo {
+	margin:5% 0 0 7%;
 }

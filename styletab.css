@@ -1,0 +1,67 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+
+
+.tabscontent h2{ 
+	margin-bottom:10px;
+}
+
+
+
+#tabContainer {
+	margin:0 auto;
+	width:710px;
+}
+
+#tabs{
+	height:30px;
+	text-align: center;
+	margin:0 auto;
+}
+
+#tabs > ul{
+	font: 1em;
+	list-style:none;
+	margin:0 auto;
+}
+
+#tabs > ul > li{
+	padding:20px 30px;
+	float:left;
+	color:white;
+	background: black; /* old browsers */
+	width:5em;
+	height:1.5em;
+	margin:0 auto;
+	font-family: 'Amatic SC', cursive;
+	font-size:2em;
+}
+
+#tabs > ul > li:hover{
+	background: #292929; /* old browsers */
+	cursor:pointer;
+	color: white;
+}
+
+#tabs > ul > li.tabActiveHeader{
+	background: #292929; /* old browsers */
+	cursor:pointer;
+	color: white;
+	border-top: 2px solid #2eabe2;
+}
+
+#tabscontent {
+	padding:10px 10px 25px;
+	background: #292929; 
+	margin:0;
+	color:#333;
+	height:100%;
+	float:left;
+	width:100%;
+}
+
+
+
